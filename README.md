@@ -10,7 +10,25 @@
 - **inferred-GRN files (`*.ncol`)**  
 	Gene–gene edge list in NCOL-like format:  
 
----
+### 2) Data sources & provenance
+- **Raw data**  
+	Please download directly from the original paper (https://doi.org/10.1126/science.aar3131)
+- **TF list**  
+	The TF list was obtained from AnimalTFDB 4.0(https://doi.org/10.1093/nar/gkac907)
+
+### 4) Third-party tools
+- **TENET**  
+	
+- **netctrl**  
+	
+asd
+
+
+
+
+
+
+
 
 > **Licensing**  
 > - **Code**: Apache-2.0 (see `LICENSE`)  

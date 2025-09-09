@@ -4,7 +4,7 @@
 # package load
 library(dplyr)
 
-# first you need download a raw data in 10.1126/science.aar3131
+# first you need download a raw data in original paper 
 Zebrafish <- readRDS("[PATH]/URD_Zebrafish_Object.rds")
 
 # ===== URD object subset
