@@ -2,9 +2,14 @@
 
 ### 1) What's in this repo
 - **data directory**  
-	Reconstructed inferred-GRNs (per phase) and tf list file
+	Reconstructed inferred-GRNs (per phase) and a TF list 
 - **script directory**  
-	workflow script files
+	workflow scripts (each script contains its own run commands and comments):
+		- `01_mannual_clustering/prepare_TENET_input.R` — prepare inputs for TENET
+		- `02_run_TENET/running_TENET.bash` — run TENET
+		- `03_run_netctrl/running_netctrl.bash` — run netctrl
+- ** docs directory**  
+	Reproducibility and provenance documents
 
 ### File formats
 - **inferred-GRN files (`*.ncol`)**  
@@ -19,22 +24,15 @@
 ### 3) Third-party tools
 - **TENET**  
 	The TENET is a Tool for Reconstructing Gene regulatory networks from scRNA-seq   
-	You can find more detail in paper & GitHub located below   
-	(https://doi.org/10.1093/nar/gkaa1014), (https://github.com/hg0426/TENETPLUS)
+	Paper / GitHub: (https://doi.org/10.1093/nar/gkaa1014), (https://github.com/hg0426/TENETPLUS)
 	
 - **netctrl**  
 	The netctrl is a Tool for searching driver nodes in complex networks   
-	You can find more detail in paper & GitHub located below   
-	(https://doi.org/10.1038/nature10011), (https://github.com/ntamas/netctrl)
-	
-asd
+	Paper / GitHub: (https://doi.org/10.1038/nature10011), (https://github.com/ntamas/netctrl)
 
+> Please see comments and commands inside each script under `script/`
 
-
-
-
-
-
+---
 
 > **Licensing**  
 > - **Code**: Apache-2.0 (see `LICENSE`)  
