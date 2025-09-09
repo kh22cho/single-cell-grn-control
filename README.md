@@ -10,16 +10,26 @@
 - **inferred-GRN files (`*.ncol`)**  
 	Gene–gene edge list in NCOL-like format:  
 
+___
+
 ### 2) Data sources & provenance
 - **Raw data**  
 	Please download directly from the original paper (https://doi.org/10.1126/science.aar3131)
 - **TF list**  
-	The TF list was obtained from AnimalTFDB 4.0(https://doi.org/10.1093/nar/gkac907)
+	The TF list was obtained from AnimalTFDB 4.0 (https://doi.org/10.1093/nar/gkac907)
+
+___
 
 ### 4) Third-party tools
 - **TENET**  
+	The TENET is a Tool for Reconstructing Gene regulatory networks from scRNA-seq
+	You can find more detail in paper & GitHub located below
+	(https://doi.org/10.1093/nar/gkaa1014)
+	(https://github.com/hg0426/TENETPLUS)
 	
 - **netctrl**  
+	(https://doi.org/10.1038/nature10011)
+	(https://github.com/ntamas/netctrl)
 	
 asd
 
