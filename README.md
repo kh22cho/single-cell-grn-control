@@ -3,7 +3,7 @@
 ### 1) What's in this repo
 - **data directory**  
 	Reconstructed inferred-GRNs (per phase) and tf list file
-- ** script directory **  
+- **script directory**  
 	workflow script files
 
 ### File formats
