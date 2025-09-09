@@ -42,3 +42,5 @@ select_file <- matrix(1, length(t(pseudo_matrix)))
 colnames(select_file) <- 'select'
 rownames(select_file) <- row.names(ZF_object@pseudotime)
 write.table(select_file, file = "[PATH]/cell.txt", row.names = FALSE, col.names = FALSE)
+
+# now we make 3 TENET input succesfully!
