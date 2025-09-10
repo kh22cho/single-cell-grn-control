@@ -6,9 +6,9 @@
 	All inferred-GRN files are gene-gene edge list in NCOL-like format  
 - **script directory**  
 	workflow scripts (each script contains its own run commands and comments):  
-		`01_manual_clustering/prepare_TENET_input.R` — prepare inputs for TENET  
-		`02_run_TENET/running_TENET.bash` — run TENET  
-		`03_run_netctrl/running_netctrl.bash` — run netctrl  
+		> `01_manual_clustering/prepare_TENET_input.R` — prepare inputs for TENET  
+		> `02_run_TENET/running_TENET.bash` — run TENET  
+		> `03_run_netctrl/running_netctrl.bash` — run netctrl  
 - **docs directory**  
 	Reproducibility and provenance documents
 
