@@ -15,7 +15,6 @@
 	Reproducibility and provenance documents
 - **results**  
 	Result files of our analysis paper  
-	- Critical TF list  
 
 ### 2) Data sources & provenance
 - **Raw data**  
@@ -26,11 +25,11 @@
 ### 3) Third-party tools
 - **TENET**  
 	The TENET is a Tool for Reconstructing Gene regulatory networks from scRNA-seq   
-	Paper / GitHub: (https://doi.org/10.1093/nar/gkaa1014), (https://github.com/hg0426/TENETPLUS)
+	Paper: (https://doi.org/10.1093/nar/gkaa1014)
 	
 - **netctrl**  
 	The netctrl is a Tool for searching driver nodes in complex networks   
-	Paper / GitHub: (https://doi.org/10.1038/nature10011), (https://github.com/ntamas/netctrl)
+	Paper: (https://doi.org/10.1038/nature10011)
 
 > Please see comments and commands inside each script under `script/`
 
