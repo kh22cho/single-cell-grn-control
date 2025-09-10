@@ -12,6 +12,9 @@
 ./TENET_Plus expression.csv [number_of_threads] pseudotime.txt cell.txt 1 zebrafish
 
 # ===== Downstream analysis
+# reconstructing GRN
 python3 makeGRNbyTF.py zebrafish 0.05
+
+# trimming indirect edges 
+# the output file TE_result_matrix.byGRN.fdr0.05.trimIndirect0.0.sif is also used to netctrl
 python3 trim_indirect.py TE_result_matrix.byGRN.fdr0.05.sif 0
-python3 countOutdegree.py TE_result_matrix.byGRN.fdr0.05.trimIndirect0.0.sif

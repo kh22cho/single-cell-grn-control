@@ -1,9 +1,3 @@
-# this is a script of zebrafish embryogenesis 40 cell type cluster
-
-# ===== preparation
-# package load
-library(dplyr)
-
 # first you need download a raw data in original paper 
 Zebrafish <- readRDS("[PATH]/URD_Zebrafish_Object.rds")
 
@@ -12,13 +6,15 @@ Zebrafish <- readRDS("[PATH]/URD_Zebrafish_Object.rds")
 metadata <- Zebrafish@meta
 
 # we provide which cell type use which stage and segmentation in excel file
-# if you want subset just one zebrafish developmental stage
-zf <- metadata %>% filter(STAGE == "[zebrafish developmental stage]") 
-# or multiple zebrafish developmental stage
-zf <- metadata %>% filter(STAGE %in% c("[zebrafish developmental stage 1], [zebrafish developmental stage 2]")) 
-
-# trajectory filtering
+# first, trajectory filtering
 zf <- Zebrafish@group.ids %>% filter(segment %in% c("[segment information]"))
+
+# second, zebrafish developmental stage filering
+# if you want subset just one stage, then chose this line
+zf <- zf %>% filter(init == "[zebrafish developmental stage]")
+# or multiple stage
+zf <- zf %>% filter(init %in% c("[zebrafish developmental stage 1], [zebrafish developmental stage 2]"))
+
 # extract cell barcodes
 zf_cell_names <- rownames(zf)
 # URD object subset based on cell barcodes
