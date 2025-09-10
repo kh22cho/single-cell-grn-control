@@ -13,6 +13,9 @@
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
 - **docs directory**  
 	Reproducibility and provenance documents
+- **results**  
+	Result files of our analysis paper  
+	- Critical TF list  
 
 ### 2) Data sources & provenance
 - **Raw data**  
