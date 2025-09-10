@@ -1,11 +1,11 @@
 # ENVIRONMENT  
 
-## System  
+## System
 - OS: Ubuntu 22.04.5 LTS  
 - CPU: AMD EPYC 7452 (32-core) x 2ea  
 
-## Tools  
-- TENET: repo = https://github.com/hg0426/TENETPLUS  
+## Tools
+- TENET: repo = https://github.com/hg0426/TENETPLUS
 	- Open MPI 4.1.2  
 	- OpenJDK 11.0.26  
 	- Python 3.10.12  
