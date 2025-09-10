@@ -13,7 +13,7 @@
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
 - **docs directory**  
 	Reproducibility and provenance documents
-- **results**  
+- **results directory**  
 	Result files of our analysis paper  
 
 ### 2) Data sources & provenance
