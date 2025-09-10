@@ -2,7 +2,9 @@
 
 ### 1) What's in this repo
 - **data directory**  
-	Reconstructed inferred-GRNs (per phase) and a TF list  
+	> Reconstructed inferred-GRNs (per phase)  
+	> TF list  
+	> Excel file containing developmental stage and segment information  
 	All inferred-GRN files are gene-gene edge list in NCOL-like format  
 - **script directory**  
 	workflow scripts (each script contains its own run commands and comments):  
