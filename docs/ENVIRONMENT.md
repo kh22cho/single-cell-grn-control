@@ -1,25 +1,18 @@
 # ENVIRONMENT (frozen for reproducibility)
 
 ## System
-- Hostname: 
-- OS / Kernel: 
-- CPU: 
-- GPU: 
-- NVIDIA driver / CUDA: 
+- OS: Ubuntu 22.04.5 LTS  
+- CPU: AMD EPYC 7452 (32-core) x 2ea  
 
 ## Tools
-- TENET: repo = https://github.com/hg0426/TENETPLUS , version/commit = 
-- netctrl: repo = https://github.com/ntamas/netctrl , version/commit = 
+- TENET: repo = https://github.com/hg0426/TENETPLUS  
+	- Open MPI 4.1.2  
+	- OpenJDK 11.0.26  
+	- Python 3.10.12  
+	- JPype1 1.6.0  
+	- statsmodels 0.14.5  
 
-## Python
-- Python: 
-- Key packages (name==version): 
-- Full list: see `docs/python-freeze.txt` (optional)
-
-## R
-- R: 
-- sessionInfo(): see `docs/R-sessioninfo.txt` (optional)
-
-## Notes
-- Seeds and determinism: describe how seeds were set (R `set.seed()`, Python `numpy.random.seed()` etc.)
-- Any non-default flags (e.g., cuDNN determinism, thread counts)
+- netctrl: repo = https://github.com/ntamas/netctrl
+	- netctrl 0.2.0  
+	- igraph 0.10.3  
+	- libxml2 2.9.13  
