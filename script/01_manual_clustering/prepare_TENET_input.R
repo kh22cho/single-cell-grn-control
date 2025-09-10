@@ -13,7 +13,7 @@ zf <- Zebrafish@group.ids %>% filter(segment %in% c("[segment information]"))
 # if you want subset just one stage, then chose this line
 zf <- zf %>% filter(init == "[zebrafish developmental stage]")
 # or multiple stage
-zf <- zf %>% filter(init %in% c("[zebrafish developmental stage 1], [zebrafish developmental stage 2]"))
+zf <- zf %>% filter(init %in% c("[zebrafish developmental stage 1]", "[zebrafish developmental stage 2]"))
 
 # extract cell barcodes
 zf_cell_names <- rownames(zf)
