@@ -8,11 +8,7 @@ metadata <- Zebrafish@meta
 # we provide which cell type use which stage and segmentation in excel file
 # first, trajectory filtering
 zf <- Zebrafish@group.ids %>% filter(segment %in% c("[segment information]"))
-
 # second, zebrafish developmental stage filering
-# if you want subset just one stage, then chose this line
-zf <- zf %>% filter(init == "[zebrafish developmental stage]")
-# or multiple stage
 zf <- zf %>% filter(init %in% c("[zebrafish developmental stage 1]", "[zebrafish developmental stage 2]"))
 
 # extract cell barcodes
