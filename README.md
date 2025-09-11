@@ -3,18 +3,19 @@
 ### 1) What's in this repo
 - **data directory**  
 	All inferred-GRN files are gene-gene edge list in NCOL-like format  
-	- Reconstructed inferred-GRNs (per phase)  
-	- TF list  
-	- Excel file containing developmental stage and segment information    
+	- `interred_grn/`: Reconstructed inferred-GRNs (per phase)  
+	- `tf_list/`: TF list  
+	- `stage_segment_info/stage_segment_info.xlsx`: Excel file containing developmental stage and segment information    
 - **script directory**  
 	workflow scripts (each script contains its own run commands and comments):  
 	- `01_manual_clustering/prepare_TENET_input.R`: prepare inputs for TENET  
 	- `02_run_TENET/running_TENET.bash`: run TENET  
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
+	- `04_find_critical_edge/`:
 - **docs directory**  
 	Reproducibility and provenance documents
-- **results directory**  
-	Result files of our analysis paper  
+- **supplementary directory**  
+	Supplementary files of our paper  
 
 ### 2) Data sources & provenance
 - **Raw data**  
