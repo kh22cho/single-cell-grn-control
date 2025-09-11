@@ -19,28 +19,21 @@ for i in range(1, 5):
 
 # result dictionary
 netctrl_results = {}
-criteria_results = {}
 
-# phase for loop
+# edge cutting for loop
 for i in range(1, 5):
     # phase key in result dictionary
     phase_key = f'phase{i}'
     netctrl_results[phase_key] = {}
-    criteria_results[phase_key] = {}
 
-    # network name for loop
     for n in file_name[f'phase{i}']:
         # network name key in phase key
-        network_key = n.replace(".ncol", "")
+        network_key = n
         netctrl_results[phase_key][network_key] = {}
 
         # ncol file path
         input_file = os.path.join(f'{basic_path}/data/inferred_grn/', phase_key, n)
-        
-        # calculater nD criteria
-        command = f"{netctrl} -m liu {input_file} | wc -l"
-        criteria_results[phase_key][network_key] = int(subprocess.check_output(command, shell=True, text=True).strip())
-        
+
         # number of lines of original file
         wc_output = subprocess.check_output(['wc', '-l', input_file], text=True)
         num_lines = int(wc_output.split()[0])  # the first line is a number of lines 
@@ -70,16 +63,7 @@ for i in range(1, 5):
         # remove a temp directory
         shutil.rmtree(temp_dir)
 
-# save final result as JSON format
+# save final result into JSON format
 output_json_path = f"{basic_path}/data/result/netctrl_results_liu.json"
 with open(output_json_path, 'w', encoding='utf-8') as json_file:
     json.dump(netctrl_results, json_file, ensure_ascii=False, indent=4)
-
-# save criteria_results as CSV 
-rows = []
-for phase_key, nets in criteria_results.items():
-    for network_key, nD in nets.items():
-        rows.append({"phase": phase_key, "network": network_key, "nD": nD})
-
-criteria_csv_path = f"{basic_path}/data/result/netctrl_criteria_liu.csv"
-pd.DataFrame(rows).to_csv(criteria_csv_path, index=False)

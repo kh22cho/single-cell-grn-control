@@ -1,6 +1,6 @@
 {
     "phase1": {
-        "Primordial_Germ_cells.ncol": {
+        "Primordial_Germ_cells": {
             "1": 214,
             "2": 214,
             "3": 214,
@@ -956,7 +956,7 @@
             "953": 214,
             "954": 213
         },
-        "Blastomeres.ncol": {
+        "Blastomeres": {
             "1": 451,
             "2": 451,
             "3": 451,
@@ -2228,7 +2228,7 @@
             "1269": 451,
             "1270": 451
         },
-        "Enveloping_Layer.ncol": {
+        "Enveloping_Layer": {
             "1": 434,
             "2": 434,
             "3": 434,
@@ -4943,7 +4943,7 @@
         }
     },
     "phase2": {
-        "Ectoderm.ncol": {
+        "Ectoderm": {
             "1": 394,
             "2": 394,
             "3": 394,
@@ -6075,7 +6075,7 @@
             "1129": 394,
             "1130": 394
         },
-        "Primordial_Germ_cells.ncol": {
+        "Primordial_Germ_cells": {
             "1": 292,
             "2": 293,
             "3": 292,
@@ -6718,7 +6718,7 @@
             "640": 293,
             "641": 293
         },
-        "Other_Mesendoderm.ncol": {
+        "Other_Mesendoderm": {
             "1": 422,
             "2": 422,
             "3": 422,
@@ -7563,7 +7563,7 @@
             "842": 422,
             "843": 422
         },
-        "Other_Axial_Mesoderm.ncol": {
+        "Other_Axial_Mesoderm": {
             "1": 411,
             "2": 411,
             "3": 411,
@@ -8822,7 +8822,7 @@
             "1256": 411,
             "1257": 411
         },
-        "Enveloping_Layer.ncol": {
+        "Enveloping_Layer": {
             "1": 458,
             "2": 458,
             "3": 458,
@@ -10569,7 +10569,7 @@
         }
     },
     "phase3": {
-        "Notochord.ncol": {
+        "Notochord": {
             "1": 391,
             "2": 391,
             "3": 391,
@@ -11320,7 +11320,7 @@
             "748": 391,
             "749": 391
         },
-        "Paraxial_Mesoderm.ncol": {
+        "Paraxial_Mesoderm": {
             "1": 410,
             "2": 411,
             "3": 411,
@@ -12136,7 +12136,7 @@
             "813": 411,
             "814": 411
         },
-        "Ectoderm.ncol": {
+        "Ectoderm": {
             "1": 378,
             "2": 378,
             "3": 378,
@@ -13376,7 +13376,7 @@
             "1237": 378,
             "1238": 377
         },
-        "Primordial_Germ_cells.ncol": {
+        "Primordial_Germ_cells": {
             "1": 317,
             "2": 317,
             "3": 317,
@@ -14586,7 +14586,7 @@
             "1207": 317,
             "1208": 317
         },
-        "Other_Mesendoderm.ncol": {
+        "Other_Mesendoderm": {
             "1": 425,
             "2": 425,
             "3": 425,
@@ -15597,7 +15597,7 @@
             "1008": 425,
             "1009": 425
         },
-        "Prechordal_Plate.ncol": {
+        "Prechordal_Plate": {
             "1": 415,
             "2": 415,
             "3": 415,
@@ -16256,7 +16256,7 @@
             "656": 415,
             "657": 415
         },
-        "Enveloping_Layer.ncol": {
+        "Enveloping_Layer": {
             "1": 507,
             "2": 507,
             "3": 507,
@@ -17416,7 +17416,7 @@
         }
     },
     "phase4": {
-        "Notochord.ncol": {
+        "Notochord": {
             "1": 286,
             "2": 286,
             "3": 286,
@@ -18845,7 +18845,7 @@
             "1426": 286,
             "1427": 287
         },
-        "Cephalic_Mesoderm.ncol": {
+        "Cephalic_Mesoderm": {
             "1": 234,
             "2": 234,
             "3": 234,
@@ -20875,7 +20875,7 @@
             "2027": 234,
             "2028": 233
         },
-        "Diencephalon.ncol": {
+        "Diencephalon": {
             "1": 262,
             "2": 262,
             "3": 262,
@@ -21516,7 +21516,7 @@
             "638": 262,
             "639": 262
         },
-        "Neural_Plate_Border.ncol": {
+        "Neural_Plate_Border": {
             "1": 259,
             "2": 259,
             "3": 259,
@@ -22610,7 +22610,7 @@
             "1091": 259,
             "1092": 258
         },
-        "Placode_Epibranchial+Otic.ncol": {
+        "Placode_Epibranchial+Otic": {
             "1": 275,
             "2": 275,
             "3": 275,
@@ -23501,7 +23501,7 @@
             "888": 275,
             "889": 276
         },
-        "Placode_Olfactory.ncol": {
+        "Placode_Olfactory": {
             "1": 243,
             "2": 243,
             "3": 243,
@@ -24935,7 +24935,7 @@
             "1431": 243,
             "1432": 243
         },
-        "Hindbrain_R4+5+6.ncol": {
+        "Hindbrain_R4+5+6": {
             "1": 255,
             "2": 254,
             "3": 254,
@@ -25663,7 +25663,7 @@
             "725": 253,
             "726": 253
         },
-        "Primordial_Germ_cells.ncol": {
+        "Primordial_Germ_cells": {
             "1": 242,
             "2": 242,
             "3": 242,
@@ -27067,7 +27067,7 @@
             "1401": 242,
             "1402": 242
         },
-        "Adaxial_Cells.ncol": {
+        "Adaxial_Cells": {
             "1": 289,
             "2": 290,
             "3": 291,
@@ -27567,7 +27567,7 @@
             "497": 289,
             "498": 289
         },
-        "Hindbrain_R3.ncol": {
+        "Hindbrain_R3": {
             "1": 195,
             "2": 196,
             "3": 196,
@@ -28627,7 +28627,7 @@
             "1057": 196,
             "1058": 196
         },
-        "midbrain+neural_crest.ncol": {
+        "midbrain+neural_crest": {
             "1": 227,
             "2": 227,
             "3": 227,
@@ -29183,7 +29183,7 @@
             "553": 227,
             "554": 227
         },
-        "Optic_Cup.ncol": {
+        "Optic_Cup": {
             "1": 219,
             "2": 219,
             "3": 219,
@@ -29978,7 +29978,7 @@
             "792": 219,
             "793": 219
         },
-        "Tailbud.ncol": {
+        "Tailbud": {
             "1": 263,
             "2": 263,
             "3": 263,
@@ -30508,7 +30508,7 @@
             "527": 263,
             "528": 263
         },
-        "Placode_Adeno+Lens+Trigeminal.ncol": {
+        "Placode_Adeno+Lens+Trigeminal": {
             "1": 231,
             "2": 231,
             "3": 231,
@@ -32044,7 +32044,7 @@
             "1533": 231,
             "1534": 231
         },
-        "Telencephalon.ncol": {
+        "Telencephalon": {
             "1": 213,
             "2": 213,
             "3": 213,
@@ -33137,7 +33137,7 @@
             "1090": 213,
             "1091": 213
         },
-        "Hematopoietic_ICM.ncol": {
+        "Hematopoietic_ICM": {
             "1": 214,
             "2": 214,
             "3": 214,
@@ -33823,7 +33823,7 @@
             "683": 214,
             "684": 213
         },
-        "Prechordal_Plate.ncol": {
+        "Prechordal_Plate": {
             "1": 302,
             "2": 302,
             "3": 302,
@@ -34290,7 +34290,7 @@
             "464": 302,
             "465": 302
         },
-        "Spinal_Cord.ncol": {
+        "Spinal_Cord": {
             "1": 258,
             "2": 257,
             "3": 257,
@@ -34991,7 +34991,7 @@
             "698": 257,
             "699": 256
         },
-        "Epidermis.ncol": {
+        "Epidermis": {
             "1": 319,
             "2": 319,
             "3": 319,
@@ -35750,7 +35750,7 @@
             "756": 319,
             "757": 319
         },
-        "Hematopoietic_RBI+Pronephros.ncol": {
+        "Hematopoietic_RBI+Pronephros": {
             "1": 237,
             "2": 238,
             "3": 237,
@@ -36984,7 +36984,7 @@
             "1231": 237,
             "1232": 237
         },
-        "Enveloping_Layer.ncol": {
+        "Enveloping_Layer": {
             "1": 458,
             "2": 458,
             "3": 458,
@@ -39288,7 +39288,7 @@
             "2301": 458,
             "2302": 458
         },
-        "Heart_Primordium.ncol": {
+        "Heart_Primordium": {
             "1": 249,
             "2": 249,
             "3": 249,
@@ -41060,7 +41060,7 @@
             "1769": 249,
             "1770": 248
         },
-        "Endoderm_Pancreatic+Intestinal.ncol": {
+        "Endoderm_Pancreatic+Intestinal": {
             "1": 307,
             "2": 307,
             "3": 307,
@@ -42071,7 +42071,7 @@
             "1008": 307,
             "1009": 307
         },
-        "Endoderm_Pharyngeal.ncol": {
+        "Endoderm_Pharyngeal": {
             "1": 280,
             "2": 280,
             "3": 280,
@@ -43767,7 +43767,7 @@
             "1693": 280,
             "1694": 280
         },
-        "Somites.ncol": {
+        "Somites": {
             "1": 256,
             "2": 256,
             "3": 256,
