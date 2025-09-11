@@ -64,6 +64,6 @@ for i in range(1, 5):
         shutil.rmtree(temp_dir)
 
 # save final result into JSON format
-output_json_path = f"{basic_path}/result/netctrl_results_liu.json"
+output_json_path = f"{basic_path}/data/result/netctrl_results_liu.json"
 with open(output_json_path, 'w', encoding='utf-8') as json_file:
     json.dump(netctrl_results, json_file, ensure_ascii=False, indent=4)
