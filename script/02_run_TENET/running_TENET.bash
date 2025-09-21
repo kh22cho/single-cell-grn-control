@@ -9,7 +9,7 @@
 
 # ===== run TENET
 # run TENET with TF list
-./TENET_Plus expression.csv [number_of_threads] pseudotime.txt cell.txt 1 zebrafish
+./TENET_Plus expression.csv [number_of_threads] pseudotime.txt cell.txt 1 zebrafish 0
 
 # ===== Downstream analysis
 # reconstructing GRN
