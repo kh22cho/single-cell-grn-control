@@ -12,7 +12,7 @@
 	- `01_manual_clustering/prepare_TENET_input.R`: prepare inputs for TENET  
 	- `02_run_TENET/running_TENET.bash`: run TENET  
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
-	- `04_find_critical_edge/`: edge categorization and extract critical TF or find critical edge and critical TF based on n<sub>D<sub>  
+	- `04_find_critical_edge/`: edge categorization and extract critical TF  
 - **docs directory**  
 	Reproducibility and provenance documents
 - **supplementary directory**  
