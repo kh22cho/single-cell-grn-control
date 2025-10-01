@@ -13,7 +13,8 @@
 	- `02_run_TENET/running_TENET.bash`: run TENET  
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
 	- `04_find_critical_edge/`: edge categorization and extract critical TF  
-	- `05_network_robustness/`: simulate random node failures and hub-targeted removals  
+	- `05_network_robustness/`: simulate random edge failures and hub-edge removals  
+	- `06_GRNBoost2`: run another GRN-reconstruct tool   
 - **docs directory**  
 	Reproducibility and provenance documents
 - **supplementary directory**  
