@@ -14,7 +14,7 @@
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
 	- `04_find_critical_edge/`: edge categorization and extract critical TF  
 	- `05_network_robustness/`: simulate random edge failures and hub-edge removals  
-	- `06_GRNBoost2`: run another GRN-reconstruct tool   
+	- `06_another_GRN_tool`: run another GRN-reconstruct tool   
 - **docs directory**  
 	Reproducibility and provenance documents
 - **supplementary directory**  
