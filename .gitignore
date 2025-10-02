@@ -1,2 +1,7 @@
 .DS_Store
 /script/backup
+/script/05_network_robustness
+/script/06_another_GRN_tool
+/data/raw_data
+/data/result/edge_robustness
+/data/result/GRNBoost2
