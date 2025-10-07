@@ -14,9 +14,7 @@
 	- `03_run_netctrl/running_netctrl.bash`: run netctrl  
 	- `04_find_critical_edge/`: edge categorization and extract critical TF  
 - **docs directory**  
-	Reproducibility and provenance documents
-- **supplementary directory**  
-	Supplementary files of our paper  
+	Reproducibility and provenance documents  
 
 ### 2) Data sources & provenance
 - **Raw data**  
