@@ -1,4 +1,6 @@
-## Controllability of the gene regulatory network in zebrafish embryogenesis 
+## Controllability of the gene regulatory network in zebrafish embryogenesis  
+
+Park, J., Cho, K., Lee, J. et al. Controllability of the gene regulatory network in zebrafish embryogenesis. Sci Rep (2025). https://doi.org/10.1038/s41598-025-33869-9
 
 ### 1) What's in this repo
 - **data directory**  
